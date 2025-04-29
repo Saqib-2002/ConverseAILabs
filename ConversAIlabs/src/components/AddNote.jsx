@@ -49,7 +49,7 @@ const AddNote = ({ onSave }) => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="rounded bg-purple-500 px-4 py-2 text-white hover:bg-purple-600"
+            className="rounded bg-purple-500 px-4 py-2 text-white hover:bg-purple-600 cursor-pointer"
             disabled={saving}
           >
             {saving ? "Saving..." : "Add Note"}
